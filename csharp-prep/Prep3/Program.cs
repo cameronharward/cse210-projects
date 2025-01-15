@@ -29,8 +29,9 @@ class Program
                 }
 
             }while(!correct);
-
+            
             correct = false;
+
             Console.Write("Do you want to play again? yes or no: ");
             playAgain = Console.ReadLine();
             if(playAgain == "no"){
