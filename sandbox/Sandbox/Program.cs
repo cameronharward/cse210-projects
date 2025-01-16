@@ -4,6 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Sandbox World!");
+        System.Console.WriteLine("Welcome to the Shopping Cart Program\n");
     }
 }
