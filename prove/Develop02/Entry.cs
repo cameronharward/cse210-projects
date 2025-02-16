@@ -26,11 +26,11 @@ public class Entry{
 
     private string FormatString(string str){
         string subStr = "";
-        if(str.Length <= 50){
+        if(str.Length <= 80){
             return str;
         }
-        for(int i = 0; i < str.Length; i += 50){
-            int length = Math.Min(50, str.Length - i);
+        for(int i = 0; i < str.Length; i += 80){
+            int length = Math.Min(80, str.Length - i);
             subStr += str.Substring(i, length) + "\n";
         }
         subStr = subStr.Substring(0, subStr.Length - 2);
