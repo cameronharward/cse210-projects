@@ -1,9 +1,10 @@
 using System;
+using System.Security.Claims;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop05 World!");
+        Profile profile = new Profile();
     }
 }
